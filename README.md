@@ -1,13 +1,8 @@
 # python-file-decode
 
 The text file contains words paired with numbers. To decode the message and form a single sentence, you need to create a pyramid structure. Use the last number in each row and its corresponding word to construct a sentence, with each word separated by a space.
+<img width="101" alt="image" src="https://github.com/ashoknallasivam/python-file-decode/assets/21120803/92099cf6-c022-4fd2-9939-731402f50844">
 
-    1
-   2 3
-  4 5 6
- 7 8 9 10
-11 12 13 14 15
-...
 
 * I created a decode function that takes a text file as a parameter. Inside the decode function, I defined another function to create a pyramid structure. This inner function takes a maximum number and an object with key-value pairs, where the key is a number and the value is a word.
 
